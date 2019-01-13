@@ -1,7 +1,7 @@
 Package: askpass
 Type: Package
 Title: Safe Password Entry for R, Git, and SSH
-Version: 1.0
+Version: 1.1
 Authors@R: person("Jeroen", "Ooms", role = c("aut", "cre"), 
     email = "jeroen@berkeley.edu", comment = c(ORCID = "0000-0002-4035-0289"))
 Description: Cross-platform utilities for prompting the user for credentials or a 
@@ -22,8 +22,8 @@ RoxygenNote: 6.1.1
 Suggests: testthat
 Language: en-US
 NeedsCompilation: yes
-Packaged: 2018-12-11 14:29:02 UTC; jeroen
+Packaged: 2019-01-13 12:08:17 UTC; jeroen
 Author: Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Repository: CRAN
-Date/Publication: 2019-01-02 11:10:03 UTC
+Date/Publication: 2019-01-13 12:50:03 UTC
