@@ -1,7 +1,7 @@
 Package: askpass
 Type: Package
-Title: Safe Password Entry for R, Git, and SSH
-Version: 1.1
+Title: Password Entry Utilities for R, Git, and SSH
+Version: 1.2.0
 Authors@R: person("Jeroen", "Ooms", role = c("aut", "cre"), 
     email = "jeroen@berkeley.edu", comment = c(ORCID = "0000-0002-4035-0289"))
 Description: Cross-platform utilities for prompting the user for credentials or a 
@@ -13,17 +13,16 @@ Description: Cross-platform utilities for prompting the user for credentials or 
     Thereby the user can be prompted for credentials or a passphrase if needed 
     when R calls out to git or ssh.
 License: MIT + file LICENSE
-URL: https://github.com/jeroen/askpass#readme
-BugReports: https://github.com/jeroen/askpass/issues
+URL: https://github.com/r-lib/askpass
+BugReports: https://github.com/r-lib/askpass/issues
 Encoding: UTF-8
-LazyData: true
 Imports: sys (>= 2.1)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.2.3
 Suggests: testthat
 Language: en-US
 NeedsCompilation: yes
-Packaged: 2019-01-13 12:08:17 UTC; jeroen
+Packaged: 2023-09-03 19:16:12 UTC; jeroen
 Author: Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Repository: CRAN
-Date/Publication: 2019-01-13 12:50:03 UTC
+Date/Publication: 2023-09-03 20:00:02 UTC
